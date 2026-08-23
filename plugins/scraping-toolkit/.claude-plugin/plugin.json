@@ -1,0 +1,11 @@
+{
+  "name": "scraping-toolkit",
+  "displayName": "Scraping Toolkit",
+  "description": "Bot-protection bypass and multi-source scraper architecture patterns",
+  "version": "0.1.0",
+  "author": {
+    "name": "c10gdn"
+  },
+  "license": "MIT",
+  "keywords": ["scraping", "datadome", "bot-detection", "captcha", "playwright"]
+}

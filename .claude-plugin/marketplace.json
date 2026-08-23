@@ -1,0 +1,23 @@
+{
+  "name": "c10gdn-claude-skills",
+  "owner": {
+    "name": "c10gdn"
+  },
+  "description": "Personal Claude Code skills marketplace — reusable AWS ops and scraping patterns learned across projects",
+  "plugins": [
+    {
+      "name": "aws-ops",
+      "source": "./plugins/aws-ops",
+      "description": "Terraform/AWS deploy sequencing, cost reconciliation, and local-first testing patterns",
+      "version": "0.1.0",
+      "category": "aws"
+    },
+    {
+      "name": "scraping-toolkit",
+      "source": "./plugins/scraping-toolkit",
+      "description": "Bot-protection bypass and multi-source scraper architecture patterns",
+      "version": "0.1.0",
+      "category": "scraping"
+    }
+  ]
+}

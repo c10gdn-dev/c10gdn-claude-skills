@@ -1,0 +1,11 @@
+{
+  "name": "aws-ops",
+  "displayName": "AWS Ops",
+  "description": "Terraform/AWS deploy sequencing, cost reconciliation, and local-first testing patterns for serverless/container projects",
+  "version": "0.1.0",
+  "author": {
+    "name": "c10gdn"
+  },
+  "license": "MIT",
+  "keywords": ["aws", "terraform", "lambda", "ecs", "cost", "testing"]
+}
