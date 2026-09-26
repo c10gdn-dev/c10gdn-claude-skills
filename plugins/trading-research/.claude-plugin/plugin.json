@@ -1,0 +1,11 @@
+{
+  "name": "trading-research",
+  "displayName": "Trading Research",
+  "description": "Deciding whether a trading strategy survives real execution: cost models measured rather than assumed, benchmark noise floors, broker API preflight, and safety patterns for code that spends money",
+  "version": "0.1.0",
+  "author": {
+    "name": "c10gdn"
+  },
+  "license": "MIT",
+  "keywords": ["trading", "backtest", "execution", "broker", "api", "costs", "research"]
+}

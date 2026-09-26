@@ -3,7 +3,7 @@
   "owner": {
     "name": "c10gdn"
   },
-  "description": "Personal Claude Code skills marketplace — reusable AWS ops and scraping patterns learned across projects",
+  "description": "Personal Claude Code skills marketplace \u2014 reusable AWS ops and scraping patterns learned across projects",
   "plugins": [
     {
       "name": "aws-ops",
@@ -18,6 +18,13 @@
       "description": "Bot-protection bypass and multi-source scraper architecture patterns",
       "version": "0.1.0",
       "category": "scraping"
+    },
+    {
+      "name": "trading-research",
+      "source": "./plugins/trading-research",
+      "description": "Strategy cost models measured rather than assumed, benchmark noise floors, broker API preflight, and safety patterns for code that spends money",
+      "version": "0.1.0",
+      "category": "trading"
     }
   ]
 }

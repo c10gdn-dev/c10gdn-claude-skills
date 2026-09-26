@@ -9,6 +9,7 @@ projects, grouped by domain so each project only installs what it needs.
 |---|---|---|
 | `aws-ops` | `terraform-two-phase-deploy`, `aws-cost-reconciliation`, `aws-local-first-testing` | Deploy to AWS via Terraform (Lambda/ECS/etc.) |
 | `scraping-toolkit` | `bot-protection-bypass`, `multi-source-scraper-architecture` | Scrape sites, especially bot-protected ones, from one or more sources |
+| `trading-research` | `strategy-cost-model`, `benchmark-noise-floor`, `broker-api-preflight`, `money-path-safety` | Automate or evaluate trading strategies against a real broker |
 
 ## Install (per project — not global)
 
