@@ -66,3 +66,11 @@ The percentage-fee broker is dead at every size; the minimum-fee broker needs
 - **Keep the cost constants in one place with their provenance in a comment**, so
   they are visibly measurements rather than guesses, and easy to re-run as real
   data arrives.
+- **Use split-adjusted prices for any return series spanning a corporate action,
+  and raw prices only for comparing against real fills.** These are different
+  jobs and need opposite settings. A 10-for-1 split in a raw series reads as a
+  -90% overnight return: in one real case it turned a genuine +567% five-year
+  overnight series into -32.9%, which would have killed a strategy that worked.
+  The tell is a single gap an order of magnitude larger than any other - sort the
+  returns by absolute size and look at the top three before trusting a multi-year
+  number.
